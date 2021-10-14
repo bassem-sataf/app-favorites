@@ -78,6 +78,9 @@ p{
     font-size: 1.3rem;
     animation: p1 3s infinite linear;
 }
+img{
+    cursor: pointer;
+}
 @keyframes p1{
     0%{color:rgb(60, 9, 108) ;}
     50%{color: rgb(146, 84, 204);}
@@ -121,20 +124,27 @@ p{
 #p3,
 #p4,
 #p5{
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     background:#f5f5f579;
     border-radius: 5px;
     width: 40%;
 }
 .l5,
 .l1,
-.l2{
+.l2,
+.l34
+{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
+.liste-jeux{
+    text-align: center;
+    margin: 30px;
+}
+
 
 
 
